@@ -15,7 +15,7 @@ const bundler = webpack(webpackConfig);
 browserSync({
   port: (process.env.PORT || 3000),
   ui: {
-    port: (process.env.PORT || 3001)
+    port: 3001
   },
   server: {
     baseDir: ''
