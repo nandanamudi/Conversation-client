@@ -18,18 +18,18 @@ browserSync({
     port: 3001
   },
   server: {
-    baseDir: '',
-    middleware: [
-      webpackDevMiddleware(bundler, {
-        publicPath: webpackConfig.output.publicPath,
-        stats: { colors: true },
-        noInfo: true
-        // for other settings see
-        // http://webpack.github.io/docs/webpack-dev-middleware.html
-      }),
+    baseDir: ''
+    // middleware: [
+    //   webpackDevMiddleware(bundler, {
+    //     publicPath: webpackConfig.output.publicPath,
+    //     stats: { colors: true },
+    //     noInfo: true
+    //     // for other settings see
+    //     // http://webpack.github.io/docs/webpack-dev-middleware.html
+    //   }),
 
-      webpackHotMiddleware(bundler)
-    ]
+      // webpackHotMiddleware(bundler)
+    // ]
   },
 
   files: [

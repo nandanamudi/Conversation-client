@@ -12,7 +12,7 @@ class Welcome extends React.Component {
                             <h5>Below questions are supported for now..</h5>
                             <div>Hey Genie.. Show me Horses?</div>
                             <div>Hey Genie.. Show me cat pictures?</div>
-                            <div>Hey Genie.. Display Dot photos?</div>
+                            <div>Hey Genie.. Display Dog photos?</div>
                         </div>
                     </div>
                 </div>
