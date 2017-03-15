@@ -11,8 +11,8 @@ class Welcome extends React.Component {
                         <div className="row top-margin">
                             <h5>Below questions are supported for now..</h5>
                             <div>Hey Genie.. Show me Horses?</div>
-                            <div>Hey Genie.. Show me cat pictures?</div>
-                            <div>Hey Genie.. Display Dog photos?</div>
+                            <div>Show me cat pictures?</div>
+                            <div>Display Dog photos?</div>
                         </div>
                     </div>
                 </div>

@@ -7,12 +7,9 @@ class CustomComponent extends React.Component {
 
     render() {
         let rows = [];
-        this
-            .props
-            .data
-            .map(images => rows.push(
-                <a>
-                    <img src={images}/></a>
+        console.log(this.props.data.data);
+        this.props.data.data.map(images => rows.push(
+                <a><img height="300" src={images}/></a>
             ));
         return (
             <div className="container">
