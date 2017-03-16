@@ -9,7 +9,7 @@ class CustomComponent extends React.Component {
         let rows = [];
         console.log(this.props.data.data);
         this.props.data.data.map(images => rows.push(
-                <a><img height="300" src={images}/></a>
+                <a><div classname="box"> <img className = "clipped" src={images}/> </div> </a>
             ));
         return (
             <div className="container">

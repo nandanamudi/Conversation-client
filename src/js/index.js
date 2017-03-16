@@ -9,9 +9,7 @@ class MainApp extends React.Component {
     this.state = {
       data: []
     };
-    this.updateState = this
-      .updateState
-      .bind(this);
+    this.updateState = this.updateState.bind(this);
   }
 
   updateState(data) {
@@ -21,7 +19,6 @@ class MainApp extends React.Component {
   }
 
   componentDidMount() {
-    // console.log("Component Mounted");
     let source = new EventSource('https://image-details.herokuapp.com/redirect');
     let that = this;
     let server_data = [];
